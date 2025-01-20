@@ -14,7 +14,7 @@ The application allows users to:
 - Start the click and hold action with a button click or keyboard shortcut.
 
 ## Installation
-
+I'm using Python 3.10.0, so if you're using a different version, you might encounter some issues. Higher version are fine though. Just not too old ;v.
 1. **Clone the repository**:
    ```sh
    git clone https://github.com/Zerohour214/mouse-click-hold-automation.git
