@@ -33,23 +33,17 @@ The application allows users to:
 
 ## How to Use
 
-1. **Run the application || The .exe (Which is provided on release page)**:
+1. **Run the application || .exe (Which is provided on release tab)**:
    ```sh
    python main.py
    ```
-
-2. **Use the GUI**:
-   - Enter the X and Y coordinates in the respective fields.
-   - Enter the duration (in seconds) for which the mouse button should be held down.
-   - Enter the number of repetitions for the click and hold action.
-   - Click the "Get Mouse Position(F5)" button || press F5 to retrieve the current mouse position.
-   - Click the "Start(F6)" or press F6 button to start the click and hold action.
-
-3. **Keyboard Shortcuts**:
-   - Press `F5` to get the current mouse position.
-   - Press `F6` to start the click and hold action.
-
-4. **Compile to an Executable** (optional):
+   If you run the .exe, wait a minute (as in literally 1 minute, if the terminal popped up with 0 errors => u r fine) cause it takes a while to load.
+2. **Keyboard Shortcuts**:
+   - Press `a` to get the current mouse position.
+   - Press `b` to start the click and hold action.
+   - Press `c` to pause.
+   - Settings tab is for keybinds.
+3. **Compile to an Executable** (optional):
    - Run the following command to create a single executable file:
      ```sh
      pyinstaller --onefile main.py
