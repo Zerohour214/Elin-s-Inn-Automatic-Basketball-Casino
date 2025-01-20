@@ -15,12 +15,12 @@ The application allows users to:
 
 ## Installation
 I'm using Python 3.10.0, so if you're using a different version, you might encounter some issues. Higher version are fine though. Just not too old ;v.
-1. **Clone the repository**:
+1. **Clone the repo and enter the content root**:
    ```sh
    git clone https://github.com/Zerohour214/mouse-click-hold-automation.git
    cd mouse-click-hold-automation
    ```
-
+If you r using Windows, remember you can open terminal by typing `cmd` on the address bar of the folder.
 2. **Install the required dependencies**:
    ```sh
    pip install -r requirements.txt
@@ -29,6 +29,9 @@ I'm using Python 3.10.0, so if you're using a different version, you might encou
 3. **Install PyInstaller** (if you want to compile the script into an executable):
    ```sh
    pip install pyinstaller
+   ```
+   ```sh
+   pyinstaller main.py   
    ```
 
 ## How to Use
